@@ -21,3 +21,7 @@ footer {
   background-color: burlywood;
   padding: 15px;
 }
+.darkMode {
+  background-color: black;
+  color: white;
+}
