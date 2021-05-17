@@ -25,3 +25,23 @@ footer {
   background-color: black;
   color: white;
 }
+
+.article-20 {
+  width: 300px;
+  color: aquamarine;
+  text-align: justify;
+  border: 1px solid burlywood;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 25px;
+}
+
+.article-20 img {
+  width: 300px;
+  object-fit: contain;
+}
+.article-20 h4 {
+  color: aquamarine;
+  text-align: center;
+  font-size: 25px;
+}
