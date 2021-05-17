@@ -15,3 +15,9 @@ header a {
   text-decoration: none;
   padding-right: 20px;
 }
+
+footer {
+  text-align: center;
+  background-color: burlywood;
+  padding: 15px;
+}
