@@ -19,3 +19,21 @@ function jokeHandler(data) {
   const joke = data.value;
   jokeEl.after(joke);
 }
+
+// todos
+
+fetch("https://jsonplaceholder.typicode.com/todos")
+  .then((resp) => resp.json())
+  .then((data) => todosHandler(data.slice(0, 10)))
+  .then((err) => console.warn(err));
+
+function todosHandler(todosObjArr) {
+  const ulEl = document.getElementById("todos");
+
+  console.log(todosObjArr);
+
+  todosObjArr.forEach((todo) => {
+    let liEl = `<li>${todo.title}</li>`;
+    ulEl.innerHTML += liEl;
+  });
+}
