@@ -3,7 +3,7 @@ h1 {
 }
 
 h4 {
-  color: blue;
+  color: rgb(109, 109, 218);
 }
 
 body {
@@ -44,4 +44,8 @@ footer {
   color: aquamarine;
   text-align: center;
   font-size: 25px;
+}
+
+#todos {
+  margin-bottom: 20px;
 }
